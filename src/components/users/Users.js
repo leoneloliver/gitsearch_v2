@@ -9,7 +9,7 @@ const Users = ({users, loading}) =>{
     }else{
 
         return (
-            <div style={userStyle}>
+            <div style={userStyle} className="user-container">
                 {users.map(user => (
                     <UserItem key={user.id} user={user} />
                 ))}
@@ -27,7 +27,7 @@ Users.propTypes = {
 
 const userStyle = {
     display: 'grid',
-    gridTemplateColumns: 'repeat(3, 1fr)',
+    // gridTemplateColumns: 'repeat(3, 1fr)',
     gridGap: '1rem'
 }
 
