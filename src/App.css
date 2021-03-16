@@ -21,11 +21,11 @@ body {
   font-size: 1rem;
   line-height: 1.6;
   background-color: var(--dark-color);
-  color: #333;
+  color: #ccc;
 }
 
 a {
-  color: var(--primary-color);
+  color: #737373;
   text-decoration: none;
 }
 
@@ -385,7 +385,7 @@ table th {
 }
 
 .navbar a:hover {
-  color: var(--light-color);
+  color: #ccc;
 }
 
 .navbar .welcome span {
